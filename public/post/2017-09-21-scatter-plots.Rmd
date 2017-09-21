@@ -1,0 +1,41 @@
+---
+title: Scatter Plots
+author: ''
+date: '2017-09-21'
+slug: scatter-plots
+categories:
+  - R
+tags: []
+---
+
+```{r}
+library(ggplot2)
+```
+
+
+
+let's generate some random points:
+```{r}
+x<-rnorm(100,5,2)
+y<-rnorm(100,2*x+1,2)
+
+
+```
+
+
+Now let's make a dataframe
+```{r}
+df <- data.frame(x,y)
+df
+```
+
+
+Finally, the plot
+
+
+```{r}
+g1<-ggplot()+
+geom_point(data=df, aes(x,y))
+g1
+```
+

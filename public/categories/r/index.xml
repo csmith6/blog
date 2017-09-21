@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on C.Smith&#39;s Blog</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on C.Smith&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scatter Plots</title>
+      <link>/post/scatter-plots/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/scatter-plots/</guid>
+      <description>library(ggplot2)let’s generate some random points:
+x&amp;lt;-rnorm(100,5,2)y&amp;lt;-rnorm(100,2*x+1,2)Now let’s make a dataframe
+df &amp;lt;- data.frame(x,y)df## x y## 1 5.5012073 7.3401621## 2 3.6225365 9.7149258## 3 4.3500158 7.6665790## 4 0.9265292 2.4826056## 5 4.7512904 9.0832070## 6 9.6513344 21.8427772## 7 3.2356364 8.1678822## 8 5.7732287 13.4539237## 9 6.2853331 10.5145737## 10 8.1935162 15.2605736## 11 3.4518650 8.5461048## 12 3.8967612 5.7141797## 13 3.</description>
+    </item>
+    
+  </channel>
+</rss>
